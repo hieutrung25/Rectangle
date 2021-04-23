@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+<label for="c">Celsius:</label>
+<input
+        type="text"
+        placeholder="Input Celsius"
+        id="c"
+        value="0"
+        oninput="convertTemperature(this.value)"
+        onchange="convertTemperature(this.value)"
+/>
+<br />
+<br />
+<label for="f">Fahrenheit:</label>
+<input type="text" id="f" value="32" />
+<script src="Temperature.js"></script>
+</body>
+</html>
